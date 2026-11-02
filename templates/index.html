@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Smart Finance</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <h1>Smart Finance</h1>
+        <p>Your money, under control.</p>
+    </header>
+
+    <main class="container">
+
+        <section class="welcome">
+            <h2>Welcome to Smart Finance 👋</h2>
+            <p>Track your money. Understand your spending. Build better habits.</p>
+        </section>
+
+        <section class="summary">
+
+            <div class="card">
+                <h3>Total Balance</h3>
+                <p class="amount">₦0.00</p>
+            </div>
+
+            <div class="card">
+                <h3>Total Income</h3>
+                <p class="amount income">₦0.00</p>
+            </div>
+
+            <div class="card">
+                <h3>Total Expenses</h3>
+                <p class="amount expense">₦0.00</p>
+            </div>
+
+        </section>
+
+        <section class="transactions">
+
+            <h2>Recent Transactions</h2>
+
+            <p class="empty-message">
+                Your transactions will appear here.
+            </p>
+
+        </section>
+
+        <footer>
+            <p>Smart Finance &copy; 2026</p>
+        </footer>
+
+    </main>
+
+</body>
+</html>
